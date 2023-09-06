@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/utils.css">
+    <title>Simple Clock</title>
+</head>
+
+<body>
+    <main id="main">
+
+        <h2 class="flex-center-X mb-4 mt-15px">
+            <a href="../index.html" class="text-hover">Analog Clock</a>
+        </h2>
+
+        <center class="center-custom-style">
+
+            <h1 id="hour">0</h1>
+            <h1>:</h1>
+            <h1 id="minute">0</h1>
+            <h1>:</h1>
+            <h1 id="second">0</h1>
+
+        </center>
+    </main>
+    <script>
+        const hour = document.getElementById('hour')
+        const minute = document.getElementById('minute')
+        const second = document.getElementById('second')
+
+        const clock = setInterval(() => {
+            hour.innerText = new Date().getHours()
+            minute.innerText = new Date().getMinutes()
+            second.innerText = new Date().getSeconds()
+        }, 1000)
+    </script>
+</body>
+
+</html>

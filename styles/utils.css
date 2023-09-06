@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+
+.brd-custom {
+    border-radius: 25vh;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-hover:hover {
+    color: red;
+}
+
+.flex-center-X {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-center-A {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mb-4 {
+    margin-bottom: 4%;
+}
+
+.mt-15px {
+    margin-top: 15px;
+}
+
+.br-red-2 {
+    border: 2px solid red;
+}
+
+.br-red-3 {
+    border: 3px solid red;
+}
+
+.br-red-5 {
+    border: 5px solid red;
+}
+
+.br-red-7 {
+    border: 7px solid red;
+}
+
+.br-blue-2 {
+    border: 2px solid blue;
+}
+
+.br-blue-3 {
+    border: 3px solid blue;
+}
+
+.br-blue-5 {
+    border: 5px solid blue;
+}
+
+.br-blue-7 {
+    border: 7px solid blue;
+}
+
+/* A Custom style for the specific center tag */
+.center-custom-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em
+}
